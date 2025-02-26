@@ -1,18 +1,21 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+
 def add(a, b):
-    """Ajoute deux nombres."""
     return a + b
 
-def multiply( x,y ):
-    return x*y
 
-def divide(x , y ):
-    beta = 0
-    if y != 0:
-        return x/y
+def sub(a, b):
+    beta = b
+    return a - b
 
-def greet(name):
-    # GREET FONCTION
-    if name =="":
-        return "Hello, World!"
-    else:
-       return "Hello,"+name
+
+def multiply(a, b):
+    result = a * b
+    return result
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
