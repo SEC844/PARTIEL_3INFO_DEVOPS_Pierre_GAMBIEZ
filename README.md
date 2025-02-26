@@ -1,17 +1,4 @@
 
-![Tests](https://github.com/WicaebethTheo/PARTIEL_3INFO_DEVOPS/actions/workflows/tests.yml/badge.svg)
-![Lint](https://github.com/WicaebethTheo/PARTIEL_3INFO_DEVOPS/actions/workflows/lint.yml/badge.svg)
-
-
-rootdir: C:\Users\Wica\PARTIEL_3INFO_DEVOPS
-plugins: cov-6.0.0
-collected 6 items                                                                                                                                                                                                     
-
-test_app.py ....                                                                                                                                                                                                [ 66%] 
-tests\test_temperature.py ..                                                                                                                                                                                    [100%] 
-
-================================================================================================= 6 passed in 0.15s ==================================================================================================
-
 
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
