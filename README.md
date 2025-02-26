@@ -1,28 +1,50 @@
-# Test API Calculator
 
-![Tests](https://github.com/SEC844/PARTIEL_3INFO_DEVOPS_Pierre_GAMBIEZ/workflows/Tests/badge.svg)
-![Linter](https://github.com/SEC844/PARTIEL_3INFO_DEVOPS_Pierre_GAMBIEZ/workflows/Linter/badge.svg)
+![Tests](https://github.com/WicaebethTheo/PARTIEL_3INFO_DEVOPS/actions/workflows/tests.yml/badge.svg)
+![Lint](https://github.com/WicaebethTheo/PARTIEL_3INFO_DEVOPS/actions/workflows/lint.yml/badge.svg)
 
-## Description
-Simple API calculator implementing basic arithmetic operations.
+
+rootdir: C:\Users\Wica\PARTIEL_3INFO_DEVOPS
+plugins: cov-6.0.0
+collected 6 items                                                                                                                                                                                                     
+
+test_app.py ....                                                                                                                                                                                                [ 66%] 
+tests\test_temperature.py ..                                                                                                                                                                                    [100%] 
+
+================================================================================================= 6 passed in 0.15s ==================================================================================================
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+# Partiel DEVOPS - Exemple avec Python et GitHub Actions
+
+Ce dépôt contient un projet Python simple avec :
+
+- Des fonctions simples
+- Des tests unitaires pour valider le comportement de la fonction.
 
 ## Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/SEC844/PARTIEL_3INFO_DEVOPS_Pierre_GAMBIEZ.git
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/<votre-organisation>/<votre-repo>.git
+   cd <votre-repo>
 
-# Go to project directory
-cd PARTIEL_3INFO_DEVOPS_Pierre_GAMBIEZ
+2. Installez les dépendances :
+```pip install -r requirements.txt```
 
-# Create virtual environment
-python -m venv venv
+3. Exécutez les tests localement :
+```pytest```
 
-# Activate virtual environment
-# For Windows:
-.\venv\Scripts\activate
-# For Unix/MacOS:
-source venv/bin/activate
+4. Ajouter un .gitignore pour ne pas commit __pycache__ et autre dossiers non pertinents à commit 
 
-# Install dependencies
-pip install -r requirements.txt
+4. Creez un github workflow pour éxécuter des tests et  un github workflow pour éxécuter le linter 
+
+5. Ajouter des badges de réussite d'execution de vos tests et de votre linter dans le readme (voir ***GITHUB_BADGES_GUIDE.md***)
+
+6. Améliorer le code pour réussir le linter
+
+7. Rendre le lien de votre répository contenant les github actions que vous aurez implémenté. 
+
+***Attention à bien mettre votre repository en PUBLIC !***
