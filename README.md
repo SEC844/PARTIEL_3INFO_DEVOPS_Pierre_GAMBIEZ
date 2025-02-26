@@ -1,3 +1,5 @@
+![Tests](https://github.com/SEC844/PARTIEL_3INFO_DEVOPS_Pierre_GAMBIEZ/workflows/tests/badge.svg)
+![Linter](https://github.com/SEC844/PARTIEL_3INFO_DEVOPS_Pierre_GAMBIEZ/workflows/lint/badge.svg)
 
 
 
